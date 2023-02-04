@@ -1,0 +1,24 @@
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_container {
+  width: 130px;
+}
+
+.profile_container {
+  width: 33px;
+  height: 33px;
+}
+.popUpParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(146, 139, 139, 0.5);
+}
+.popup-content {
+  border-radius: 10px;
+}

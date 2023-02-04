@@ -1,0 +1,15 @@
+.nav-item {
+  text-decoration: none;
+}
+.nav-item:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.activeColor {
+  background-color: lightgrey;
+}
+
+.color {
+  background-color: #212121;
+}
