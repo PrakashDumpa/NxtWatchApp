@@ -133,7 +133,7 @@ class Gaming extends Component {
 
   switchFunction = isDarkMode => {
     const {status} = this.state
-    console.log(status)
+    // console.log(status)
 
     switch (status) {
       case componentStatus.success:

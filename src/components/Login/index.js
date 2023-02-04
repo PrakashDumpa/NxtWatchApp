@@ -25,7 +25,7 @@ class Login extends Component {
   onClickLoginButton = async event => {
     const {username, password} = this.state
     event.preventDefault()
-    console.log('login')
+    // console.log('login')
     const url = 'https://apis.ccbp.in/login'
     const userDetails = {username, password}
     const options = {

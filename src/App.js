@@ -93,7 +93,7 @@ class App extends Component {
     // console.log('isLike', isLikedList)
     // console.log('isDisLike', isDisLikedList)
     // console.log('savedVideosList', savedVideosList)
-    console.log('isDarkMode', isDarkMode)
+    // console.log('isDarkMode', isDarkMode)
     return (
       <NxtWatchContext.Provider
         value={{

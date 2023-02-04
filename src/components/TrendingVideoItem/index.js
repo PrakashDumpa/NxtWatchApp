@@ -17,7 +17,7 @@ const TrendingVideoItem = props => (
         viewCount,
       } = eachVideo
       const {name} = channel
-      console.log('TrendingVideoItem', isDarkMode)
+      // console.log('TrendingVideoItem', isDarkMode)
       return (
         <li className="col-12 mb-5 ">
           <Link to={`/videos/${id}`} className="nav-item">
