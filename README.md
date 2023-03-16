@@ -16,7 +16,6 @@
 
 
 ● Implemented different routes for Login, Home, Trending, Gaming, Saved videos, Video item details pages by using React Router components Route, Switch, Link.
-● Redirecting to the login page if the user tries to open Home, Trending, Gaming, Saved videos, Video item details routes which need authentication by implementing protected Route.
 
 
 ![Trending](https://res.cloudinary.com/dp8ggbibl/image/upload/v1678965410/dibuy/trendingPage_stzoze.png)
@@ -24,3 +23,5 @@
 ![Gaming](https://res.cloudinary.com/dp8ggbibl/image/upload/v1678965418/dibuy/gaminingPage_jj7wk7.png)
 
 ![SavedVideos](https://res.cloudinary.com/dp8ggbibl/image/upload/v1678965409/dibuy/savedVideosPage_xrlups.png)
+
+● Redirecting to the login page if the user tries to open Home, Trending, Gaming, Saved videos, Video item details routes which need authentication by implementing protected Route.
