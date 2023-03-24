@@ -5,7 +5,12 @@ import './index.css'
 import NxtWatchContext from '../../context'
 
 class Login extends Component {
-  state = {username: '', password: '', errorMsg: '', isChecked: false}
+  state = {
+    username: 'rahul',
+    password: 'rahul@2021',
+    errorMsg: '',
+    isChecked: false,
+  }
 
   onChangeInputFunction = event => {
     const obj = this.state
