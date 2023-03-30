@@ -49,12 +49,16 @@ class Gaming extends Component {
         authorization: `Bearer ${jwtToken}`,
       },
     }
-    const response = await fetch(url, options)
-    if (response.ok) {
-      const data = await response.json()
-      //   console.log(data)
-      this.fetchSuccessFunction(data)
-    } else {
+    try {
+      const response = await fetch(url, options)
+      if (response.ok) {
+        const data = await response.json()
+        //   console.log(data)
+        this.fetchSuccessFunction(data)
+      } else {
+        this.setState({status: componentStatus.failure})
+      }
+    } catch (error) {
       this.setState({status: componentStatus.failure})
     }
   }
